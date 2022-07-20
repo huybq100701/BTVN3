@@ -124,19 +124,15 @@
     
 }
 
-.btn-show-pass{
-    display: flex;
-}
-
 .btn-show-pass i{
-    padding-top: 15px;
-    padding-left: 10px;
-    left: 8.33%;
-    right: 8.33%;
-    top: 16.67%;
-    bottom: 16.67%;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    left: 440px;
+    top: 255px ;
     color: #9EB0EA;
     cursor: pointer;
+    background-color: white;
 }
 
 .login--footer{
