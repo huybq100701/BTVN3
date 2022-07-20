@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#E5E5E5 ;
+    text-decoration: none;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+    position: absolute;
+    width: 700px;
+    height: 27px;
+    right: 134px;
+    top: 60px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    font-family: 'Nunito', sans-serif;
+    color: #444B59;
+}
+
+.image{
+    height: 848.9638671875px;
+    width: 960px;
+    position: absolute;
+    left: 45.83%;
+    right: 4.17%;
+    top: 12.5%;
+    bottom: 8.89%;
+}
+
+.login{
+    position: absolute;
+    width: 640px;
+    height: 863px;
+    left: 100px;
+    top: 108px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome span{
+    width: fit-content;
+    position: absolute;
+    height: 55px;
+    left: 160px;
+    right: 1426px;
+    top: calc(50% - 55px/2 - 404.5px);
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.1em;
+    color: #444B59;
+}
+
+.welcome p{
+    position: absolute;
+    height: 33px;
+    left: 160px;
+    right: 1371px;
+    top: calc(50% - 33px/2 - 348.5px);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #444B59;
+    width: fit-content;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;  
+    position: absolute;
+    height: 389px;
+    left: 160px;
+    right: 1120px;
+    top: calc(50% - 389px/2 - 73.5px);
+}
+
+.field label{
+    width: 149px;
+    height: 38px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #444B59;
+}
+.field input{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 32px;
+    gap: 10px; 
+    background: #FFFFFF;
+    border: 2px solid #789ADE;
+    border-radius: 80px;
+    align-self: stretch;
+    width: 480px;
+    height: 33px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    
+}
+
+.btn-show-pass{
+    display: flex;
+}
+
+.btn-show-pass i{
+    padding-top: 15px;
+    padding-left: 10px;
+    left: 8.33%;
+    right: 8.33%;
+    top: 16.67%;
+    bottom: 16.67%;
+    color: #9EB0EA;
+    cursor: pointer;
+}
+
+.login--footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 107px;
+    width: 480px;
+    height: 48px;
+
+}
+.login--remember{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 400px;
+    height: 48px;
+}
+
+.login--remember input{
+    position:absolute;
+    width: 29.14px;
+    height: 29.14px;
+    left: 160px;
+    top: 500px;
+    background: #9EB0EA;
+    border: 2px solid #789ADE;
+    box-shadow: 2px 4px 4px rgba(78, 99, 141, 0.12), inset 0px 4px 4px rgba(200, 211, 249, 0.6);
+}
+
+.login--remember label{
+    position: absolute;
+    width: 170px;
+    height: 27px;
+    left: 200px;
+    top: 500px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #444B59;
+}
+
+.login--forgot{
+    position: absolute;
+    width: 200px;
+    height: 27px;
+    left: 500px;
+    top: 500px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #8699DA;
+}
+
+.sign-in-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    left: 160px;
+    top: calc(50% - 80px/2 + 216px);
+    background: #8699DA;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.sign-in-btn span{
+    width: fit-content;
+    height: 27px;
+    left: 160px;
+    right: 1426px;
+    top: calc(50% - 27px/2 - 216px);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    background: #8699DA;
+    color: #FFFFFF;
+}
+
+.sign-in-btn:hover{
+    background: #789ADE;
+    transition: all 0.3s ease-in-out;
+}
+
+.other-signup{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.continue span{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+    position: absolute;
+    width: fit-content;
+    height: 20px;
+    left: 80px;
+    top: -110px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #444B59;
+}
+
+.continue{
+    position: absolute;
+    width: 420px;
+    height: 43px;
+    left: 240px;
+    top: 832px;
+}
+
+.continue hr{
+    position: absolute;
+    width: 420px;
+    left: -50px;
+    top: -90px;
+    background: #FFFFFF;
+    border: 2px solid #C8D3F9;
+}
+
+.other-signup--btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    position: absolute;
+    width: 360px;
+    height: 80px;
+    left: 240px;
+    top: calc(50% - 80px/2 + 391px);
+}
+
+.other-signup--btn a{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    width: 80px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #789ADE;
+    border-radius: 8px;
+}
